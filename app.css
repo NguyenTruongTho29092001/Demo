@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.list{
+    display: flex;
+}
+
+.list_item{
+    width: 18%;
+    height: 10rem;
+    background-color: red;
+}
+
+.list_item:last-child{
+    margin-left: auto;
+    flex-direction: wrap;
+}
